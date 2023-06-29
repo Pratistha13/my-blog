@@ -8,7 +8,7 @@ import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
 
-function App() {
+const App= ()=> {
   return (
     <BrowserRouter>
     <div className="App">
