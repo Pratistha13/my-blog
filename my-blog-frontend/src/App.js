@@ -7,6 +7,8 @@ import AboutPage from './pages/AboutPage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
+import CreateAccountPage from './pages/CreateAccountPage';
+import LoginPage from './pages/LoginPage';
 
 const App= ()=> {
   return (
@@ -19,6 +21,9 @@ const App= ()=> {
         <Route path = "/about" element = {<AboutPage />} />
         <Route path = "/articles" element = {<ArticlesListPage />} />
         <Route path = "/articles/:articleId" element = {<ArticlePage />} />
+        <Route path = "/login" element = {<LoginPage />} />
+        <Route path = "/create-account" element = {<CreateAccountPage />} />
+        
         <Route path = "*" element = {<NotFoundPage />} />
         </Routes>
       </div>
