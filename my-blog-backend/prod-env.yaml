@@ -1,0 +1,5 @@
+env_variables:
+  MONGO_USERNAME: node-server
+  MONGO_PASSWORD: A%40nMpSnL_8bvC4X
+
+

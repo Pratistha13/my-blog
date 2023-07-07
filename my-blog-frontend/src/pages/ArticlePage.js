@@ -29,11 +29,11 @@ const ArticlePage = () => {
       setArticleInfo(newArticleInfo);
     };
 
-    if (isLoading){
+    if (!isLoading){
       loadArticleInfo();
     }
     
-  }, []);
+  }, [articleId, user, isLoading]);
 
   const article = articles.find((article) => article.name === articleId);
 
